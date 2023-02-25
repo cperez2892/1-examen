@@ -81,7 +81,7 @@
             this.Controls.Add(this.Monto);
             this.Controls.Add(this.label1);
             this.Name = "Intereses";
-            this.Text = "Form3";
+            this.Text = "Calcular";
             this.ResumeLayout(false);
             this.PerformLayout();
 

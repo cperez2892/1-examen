@@ -58,7 +58,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.ListaNumeros);
             this.Name = "Multiplos";
-            this.Text = "Form4";
+            this.Text = "Multiplos";
             this.ResumeLayout(false);
 
         }

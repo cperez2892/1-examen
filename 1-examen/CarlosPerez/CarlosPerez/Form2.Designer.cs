@@ -30,6 +30,11 @@
         {
             this.Examen = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.menuStrip2 = new System.Windows.Forms.MenuStrip();
+            this.programa1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.programa2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.programa3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
             // 
             // Examen
@@ -52,6 +57,36 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Cuenta: 20121009564";
             // 
+            // menuStrip2
+            // 
+            this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.programa1ToolStripMenuItem,
+            this.programa2ToolStripMenuItem,
+            this.programa3ToolStripMenuItem});
+            this.menuStrip2.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip2.Name = "menuStrip2";
+            this.menuStrip2.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip2.TabIndex = 3;
+            this.menuStrip2.Text = "menuStrip2";
+            // 
+            // programa1ToolStripMenuItem
+            // 
+            this.programa1ToolStripMenuItem.Name = "programa1ToolStripMenuItem";
+            this.programa1ToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
+            this.programa1ToolStripMenuItem.Text = "Intereses";
+            // 
+            // programa2ToolStripMenuItem
+            // 
+            this.programa2ToolStripMenuItem.Name = "programa2ToolStripMenuItem";
+            this.programa2ToolStripMenuItem.Size = new System.Drawing.Size(81, 20);
+            this.programa2ToolStripMenuItem.Text = "Facturacion";
+            // 
+            // programa3ToolStripMenuItem
+            // 
+            this.programa3ToolStripMenuItem.Name = "programa3ToolStripMenuItem";
+            this.programa3ToolStripMenuItem.Size = new System.Drawing.Size(69, 20);
+            this.programa3ToolStripMenuItem.Text = "Multiplos";
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -59,9 +94,12 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.Examen);
+            this.Controls.Add(this.menuStrip2);
             this.Name = "Form2";
-            this.Text = "Form2";
+            this.Text = "Menu";
             this.Load += new System.EventHandler(this.Form2_Load);
+            this.menuStrip2.ResumeLayout(false);
+            this.menuStrip2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -71,5 +109,9 @@
 
         private System.Windows.Forms.Label Examen;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.MenuStrip menuStrip2;
+        private System.Windows.Forms.ToolStripMenuItem programa1ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem programa2ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem programa3ToolStripMenuItem;
     }
 }
